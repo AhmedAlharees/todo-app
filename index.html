@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/style.css">
+  <script src="./js/App.js" defer></script>
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+
+<body>
+
+  <div id="bg-photo"></div>
+
+  <main>
+
+    <section class="header">
+      <h1 class="header__text">TO DO</h1>
+      <div class="header__theme-icon">
+        <img class="theme-img" src="./images/icon-moon.svg" alt="">
+      </div>
+    </section>
+
+    <section class="todo-input">
+      <div class="input__circle"></div>
+      <input type="text" class="input__field" placeholder="Create a new todo..." id="create-todo">
+    </section>
+
+    <section class="tasks">
+      <article class="task">
+        <div class="task__checkbox">
+          <img src="./images/icon-check.svg" alt="">
+        </div>
+        <p class="task__text">this is a test</p>
+        <div class="task__cancel">
+          <img src="./images/icon-cross.svg" alt="">
+        </div>
+
+      </article>
+      <article class="tasks__clear">
+        <div class="tasks__left">
+          <p class="tasks__left"><span class="tasks__num">0</span> items left</p>
+        </div>
+        <div class="tasks__clear-btn">
+          <button class="clear-complete-btn">Clear Completed</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="filters">
+      <div class="filters__btn">
+        <button class="filters__all">All</button>
+      </div>
+      <div class="filters__btn">
+        <button class="filters__active">Active</button>
+      </div>
+      <div class="filters__btn">
+        <button class="filters__completed">Completed</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer__text">Drag and drop to reorder list</p>
+  </footer>
+</body>
+
+</html>
