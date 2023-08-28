@@ -12,7 +12,7 @@ This is a simple todo app built with HTML, CSS, and JavaScript. It allows you to
 
 ## Usage
 
-You can access and use the Todo App by visiting the following link: [Todo App]([https://example.com/todo-app](https://ahmedalharees.github.io/todo-app/)).
+You can access and use the Todo App by visiting the following link: [Todo App](https://ahmedalharees.github.io/todo-app/).
 
 1. Open the app by clicking on the provided link.
 
